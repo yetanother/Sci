@@ -1,0 +1,94 @@
+//
+The aim of this document is to compare the c++ math library
+according to solve typical FEA problem (especially rotor system,
+i.e. a skew-symmetric (or antisymmetric or antimetric[1]) matrix))
+//
+Main criteria are:
+1. learning curve
+2. only-header?
+3. open-source?
+4. det for sym and and non-sym matrix?
+5. inverse matrix?
+5. lsolve for sym and band matrix?
+5.1. LU decomposition
+6. eigenvecs for sym and band matrix?
+7. lsolve for non-symmatrix?
+8. eigenvecs for nn-sym matrix?
+8.1 complex value?
+9. runtime size for matrix
+10. perfomance
+
+//
+http://stackoverflow.com/questions/1303182/how-does-blas-get-such-extreme-performance
+https://ru.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
+https://en.wikipedia.org/wiki/Category:C%2B%2B_numerical_libraries
+https://en.wikipedia.org/wiki/Category:Free_mathematics_software
+//
+https://en.wikipedia.org/wiki/List_of_finite_element_software_packages
+https://en.wikipedia.org/wiki/List_of_numerical_libraries#C.2B.2B
+//
+List of c++ library (preliminary)
+A
+Armadillo (C++ library)
+	https://en.wikipedia.org/wiki/Armadillo_(C%2B%2B_library)
+	http://arma.sourceforge.net/
+	http://arma.sourceforge.net/docs.html
+	https://codeyarns.com/2013/11/15/how-to-use-armadillo-on-windows/
+B
+Blitz++
+	https://en.wikipedia.org/wiki/Blitz%2B%2B
+	http://blitz.sourceforge.net/
+Boost::uBLAS
+	http://www.boost.org/doc/libs/1_63_0/libs/numeric/ublas/doc/index.html
+C
+
+D
+Dlib
+	https://en.wikipedia.org/wiki/Dlib
+	http://dlib.net/
+
+E
+Eigen (C++ library)
+	https://en.wikipedia.org/wiki/Eigen_(C%2B%2B_library)
+	http://eigen.tuxfamily.org/index.php?title=Main_Page
+
+Euler
+	http://www.euler-math-toolbox.de/
+
+I
+Integer Matrix Library
+	https://en.wikipedia.org/wiki/Integer_Matrix_Library
+	https://cs.uwaterloo.ca/~astorjoh/iml.html
+IT++
+	https://en.wikipedia.org/wiki/IT%2B%2B
+	http://itpp.sourceforge.net/4.3.1/
+
+L
+LAPACK Plus Plus
+	https://en.wikipedia.org/wiki/LAPACK%2B%2B
+	https://sourceforge.net/projects/lpp/
+M
+MADNESS
+	https://en.wikipedia.org/wiki/MADNESS
+	https://github.com/m-a-d-n-e-s-s/madness
+Math Kernel Library
+	https://en.wikipedia.org/wiki/Math_Kernel_Library
+	https://software.intel.com/en-us/intel-mkl
+Matrix Template Library
+	https://en.wikipedia.org/wiki/Matrix_Template_Library
+	http://www.simunova.com/de/node/24
+
+Mxparser
+	https://en.wikipedia.org/wiki/Mxparser
+	http://mathparser.org/
+
+N
+Newmat C++ matrix library
+	http://www.robertnz.net/nm_intro.htm
+
+T
+TNT (Template Numerical Toolkit)
+	http://math.nist.gov/tnt/
+Trilinos
+	https://en.wikipedia.org/wiki/Trilinos
+	https://trilinos.org/
